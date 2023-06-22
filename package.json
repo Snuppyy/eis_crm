@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@mdi/js": "^5.9.55",
+        "@vue/compiler-dom": "^3.2.42",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.11",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.6",
+        "sass-loader": "^8.0.2",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12",
+        "vuetify-loader": "^1.7.2"
+    }
+}

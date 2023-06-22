@@ -1,0 +1,6 @@
+[submodule "resources/frontend"]
+	path = resources/frontend
+	url = ./resources/frontend/
+[submodule "resources/frontend-reconstruction"]
+	path = resources/frontend-reconstruction
+	url = ./resources/frontend-reconstruction
